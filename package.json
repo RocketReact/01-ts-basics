@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
-    "build": "tsc",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "build": "vite build"
   },
   "devDependencies": {
     "prettier": "^3.6.2",
