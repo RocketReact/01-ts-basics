@@ -1,5 +1,5 @@
-async function getMessage(): Promise<string> {
-  return await new Promise<string>(resolve => {
+function getMessage(): Promise<string> {
+  return new Promise<string>(resolve => {
     setTimeout(() => {
       resolve('Hello from TS');
     }, 1000);
